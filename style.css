@@ -1,0 +1,86 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+button {
+  outline: none;
+}
+
+.app {
+  width: 100%;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.questionWrapper {
+  font-size: 108px;
+  font-weight: bold;
+  margin: 20px auto 0;
+}
+
+.equalSign {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.answerInput {
+  margin: 10px auto;
+}
+
+.inputBtn {
+  width: 130px;
+  height: 130px;
+  margin: 20px;
+  background: #2196F3;
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  border-radius: 10px;
+  border-width: 5px;
+  border-left-color: #64B5F6;
+  border-top-color: #64B5F6;
+  border-right-color: #1976D2;
+  border-bottom-color: #1976D2;
+}
+
+.appResult {
+  display: none;
+}
+
+.resultStatus {
+  font-size: 80px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: #4CAF50;
+  margin: 40px auto;
+}
+
+.resultSummary {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.startAgain {
+  text-align: center;
+}
+
+#newQuestion {
+  width: 200px;
+  height: 60px;
+  background: #2196F3;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 5px;
+  border-width: 2px;
+  border-left-color: #64B5F6;
+  border-top-color: #64B5F6;
+  border-right-color: #1976D2;
+  border-bottom-color: #1976D2;
+  font-family: 'Source Sans Pro', sans-serif;
+}
